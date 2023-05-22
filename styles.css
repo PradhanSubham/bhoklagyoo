@@ -1,0 +1,223 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: red;
+    padding: 15px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .logo h1 {
+    color: yellow;
+    margin-left: 10px;
+    font-size: 40px;
+  }
+  
+  .navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-left: 110px;
+    font-size: 25px;
+    width: 100%;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  .login-container {
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .login-button {
+    background-color: yellow;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: yellow;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .home-content h2 {
+    font-size: 36px;
+    color: red;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: red;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Menu Section */
+  #menu {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .menu-item {
+    margin: 20px;
+    max-width: 300px;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .menu-item h3 {
+    margin-top: 10px;
+    color: red;
+  }
+  
+  .menu-item p {
+    font-size: 14px;
+    color: red;
+  }
+  
+  .menu-item .price {
+    display: block;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: red;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    color: yellow;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: yellow;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 36px;
+    color: red;
+  }
+  
+  .contact-content p {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .contact-content form {
+    margin-top: 40px;
+  }
+  
+  .contact-content input,
+  .contact-content textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+  }
+  
+  .contact-content button {
+    background-color: red;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    color: yellow;
+    margin: 0;
+  }
+  
+  .footer-content .social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content .social-icons li {
+    margin: 0 5px;
+  }
+  
+  .footer-content .social-icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: red;
+    text-decoration: none;
+  }
+  
